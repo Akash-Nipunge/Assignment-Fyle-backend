@@ -29,6 +29,9 @@ app.use(async (req, res, next) => {
 });
 
 // Route to get paginated data
+app.get('/',(req,res)=>{
+  res.send("hello")
+})
 app.get('/user', (req, res) => {
   res.json({
     totalItems: allData.length,
