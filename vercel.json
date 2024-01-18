@@ -3,7 +3,7 @@
   "builds": [
     {
       // Specify file to convert to a serverless function
-      "src": "./src/index.js",
+      "src": "src/index.js",
       // Specify the NPM module that is used for the build
       "use": "@vercel/node"
     }
